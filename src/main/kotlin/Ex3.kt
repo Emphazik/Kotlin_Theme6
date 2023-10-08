@@ -1,6 +1,6 @@
 fun main() {
     println("Введите натуральное число:")
-    val input = readLine()?.toIntOrNull() ?: return
+    val input = readln()?.toIntOrNull() ?: return
     if (input < 0) {
         println("Число должно быть натуральным")
         return

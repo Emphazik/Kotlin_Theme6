@@ -1,6 +1,6 @@
 fun main() {
     println("Введите строку:")
-    val input = readLine() ?: return
+    val input = readln() ?: return
     if (input.isEmpty()) {
         return
     }

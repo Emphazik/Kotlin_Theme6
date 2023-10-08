@@ -1,6 +1,6 @@
 fun main() {
     println("Введите выражение (число1 операция число2):")
-    val expression = readLine() ?: return
+    val expression = readln() ?: return
     val parts = expression.split(" ")
     if (parts.size != 3) {
         println("Некорректный формат выражения")

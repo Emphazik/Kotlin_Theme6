@@ -1,8 +1,8 @@
 fun main() {
     println("Введите целое число n:")
-    val n = readLine()?.toIntOrNull() ?: return
+    val n = readln()?.toIntOrNull() ?: return
     println("Введите основание степени x:")
-    val x = readLine()?.toIntOrNull() ?: return
+    val x = readln()?.toIntOrNull() ?: return
 
     var y = 0
     var result = 1

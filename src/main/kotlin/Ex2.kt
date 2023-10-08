@@ -1,6 +1,6 @@
 fun main() {
     println("Введите строку:")
-    val input = readLine() ?: return
+    val input = readln() ?: return
     val charCountMap = mutableMapOf<Char, Int>()
 
     for (char in input) {

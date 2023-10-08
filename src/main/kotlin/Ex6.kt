@@ -1,8 +1,8 @@
 fun main() {
     println("Введите первую цифру:")
-    val digit1 = readLine()?.toIntOrNull() ?: return
+    val digit1 = readln()?.toIntOrNull() ?: return
     println("Введите вторую цифру:")
-    val digit2 = readLine()?.toIntOrNull() ?: return
+    val digit2 = readln()?.toIntOrNull() ?: return
 
     if (digit1 == digit2) {
         println("Введены одинаковые цифры, создать нечетное число невозможно")
